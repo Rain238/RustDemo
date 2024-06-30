@@ -16,7 +16,7 @@ fn main() {
     println!("----------------猜字游戏----------------");
     //生成随机数
     let secret_number = rand::thread_rng().gen_range(1, 101);println!("神秘数字：{}", secret_number);
-    //循环
+    //无限循环块
     loop {
         //初始化一个接收用户输入的变量
         let mut guess = String::new();
